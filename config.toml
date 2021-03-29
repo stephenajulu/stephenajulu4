@@ -1,9 +1,8 @@
 # default configuration
-baseURL = "http://examplesite.com"
+baseURL = "https://stephenajulu4.netlify.app"
 languageCode = "en-us"
-summaryLength = "10"
-theme = "kross-hugo"
-title = "Kross"
+summaryLength = "20"
+title = "Stephen Ajulu"
 
 # css plugins
 [[params.plugins.css]]
@@ -34,7 +33,7 @@ name = "About"
 weight = 1
 
 [[menu.main]]
-URL = "blog"
+URL = "https://ajulusthoughts.stephenajulu.com"
 name = "Blog"
 weight = 2
 
@@ -56,16 +55,16 @@ logo = ""
 # theme color
 theme_color = "#41228e"
 # contact info
-phone = "+880 2544 658 256"
-email = "steve.fruits@email.com"
-address = "125/A, CA Commercial Area, California, USA"
+phone = "+254 726 024 210"
+email = "alunje73@gmail.com"
+address = "P. O. Box 0790640101 - 00100, Nairobi, Kenya"
 # meta description
-author = "Johnathan Smith"
-description = "This is meta description"
+author = "Stephen Ajulu"
+description = "Stephen is a tech enthusiast, front end web developer, graphic designer, content creator, writer and I.T Consultant"
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2020 Stephen Ajulu. All Rights Reserved."
 
 
 # preloader
@@ -80,7 +79,7 @@ form_action = "#" # contact form works with : https://formspree.io
 
 # google map
 [params.map]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
@@ -94,16 +93,28 @@ expire_days = 2
 # social site
 [[params.social]]
 icon = "ti-facebook"
-URL = "#"
+URL = "https://facebook.com/stephenajulu"
 
 [[params.social]]
 icon = "ti-instagram"
-URL = "#"
+URL = "https://instagram.com/stephenajulu"
 
 [[params.social]]
 icon = "ti-dribbble"
-URL = "#"
+URL = "https://dribble.com/stephenajulu"
 
 [[params.social]]
 icon = "ti-twitter-alt"
-URL = "#"
+URL = "https://twitter.com/stephenajulu"
+
+[[params.social]]
+icon = "ti-linkedin"
+URL = "https://linkedin.com/in/stephenajulu"
+
+[[params.social]]
+icon = "ti-youtube"
+URL = "https://www.youtube.com/channel/UC043ZXL-t3yqtgcIxJmkHuA?view_as=subscriber"
+
+[[params.social]]
+icon = "ti-github"
+URL = "https://github.com/stephenajulu"

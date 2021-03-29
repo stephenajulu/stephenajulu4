@@ -1,0 +1,202 @@
+# banner
+banner:
+  title : "Hi! I’m <br> Stephen Ajulu <br> I.T Expert"
+
+# about
+about:
+  enable : true
+  content : "Hi there! My name is Stephen, i am a tech enthusiast, front end web developer, graphic designer, content creator, writer and I.T consultant. I am also a student currently pursuing my Bachelor's Degree of Science in Information Technology. I work as a freelancer online and as such spend most of my days writing articles, designing & building things e.g. brands, websites, software, apps, graphic materials, courses, pdfs and more"
+  button:
+    enable : true
+    label : "know more"
+    URL : "about"
+
+# skill
+skill:
+  enable : true
+  title : "Skills"
+  item:
+    - title : "Web Development & Optimization"
+      progress : "70%"
+      color : "#fdb157"
+      
+    - title : "Graphic & Web Design"
+      progress : "40%"
+      color : "#9473e6"
+      
+    - title : "I.T Consultation and Strategy"
+      progress : "80%"
+      color : "#bdecf6"
+      
+    - title : "General Consultation & Strategy"
+      progress : "70%"
+      color : "#ffbcaa"
+
+# experience
+experience:
+  enable : true
+  title : "Experience"
+  item: 
+    - logo : "images/experience/icon-1.png"
+      title : "Content Creator & Strategist"
+      company : "Ajulu's Thoughts, Techknow, The Noesis Magazine, The Bistro Newsletter & Stream254"
+      duration : "August 2015 - Present"
+      
+    - logo : "images/experience/icon-1.png"
+      title : "Monitoring and Evaluation Secretariat"
+      company : "Ministry of Devolution and Planning"
+      duration : "November 2014 & 2015"
+      
+    - logo : "images/experience/icon-1.png"
+      title : "Director, Web Developer, Graphic Designer and I.T Consultant"
+      company : "OwlSec Technologies"
+      duration : "January 2016 - January 2021"
+
+    - logo : "images/experience/icon-1.png"
+      title : "Director and Content Creator"
+      company : "SAOA Media"
+      duration : "August 2020 - February 2021"
+
+    - logo : "images/experience/icon-1.png"
+      title : "Front End Web Developer, Graphic Designer, Content Creator(and Strategist), I.T Consultant and Researcher"
+      company : "Freelance(Open World)"
+      duration : "January 2015 - Present"
+
+# education
+education:
+  enable : true
+  title : "Education"
+  item:
+    - title : "Bachelor's Degree of Science in Information Technology"
+      year : "2023"
+      academy : "Mount Kenya University"
+      
+    - title : "Cloud, Cybersecurity & Web Development Introduction"
+      year : "2019"
+      academy : "IBM"
+      
+    - title : "Identification and Investigation of Cybersecurity Threats"
+      year : "2019"
+      academy : "IBM"
+      
+    - title : "Ethical Hacking Certification"
+      year : "2018"
+      academy : "Insitute of Software Technologies"
+
+    - title : "Diploma in Information Technology"
+      year : "2017"
+      academy : "ST. Paul's Unviversity"
+
+    - title : "Fundamental System Troubleshooting Micro Certification"
+      year : "2016"
+      academy : "Cybrary"
+
+    - title : "Adobe Photoshop and Corel Draw Certification"
+      year : "2016"
+      academy : "Cybrary"
+
+    - title : "Certificate in Business & Information Technology"
+      year : "2015"
+      academy : "St. Paul's Unviversity"
+
+# service
+service:
+  enable : true
+  title : "Services"
+  item:
+    - title : "Web Development & Optimization"
+      icon : "ti-world"
+      content : "I build fast, secure and search engine optimized progressive websites. I use platforms like wordpress, hugo, jamstack, jekyll and more"
+      highlighted : false
+
+    - title : "Graphic & Web Design"
+      icon : "ti-panel"
+      content : "I design eye catching logos, posters, websites and more. Soon i'll be designing products, interfaces, interactions and experiences"
+      highlighted : true
+
+    - title : "Content Creation & Strategy"
+      icon : "ti-pencil-alt2"
+      content : "I write tech articles, manuals, ebooks, instructions and books. I can also copywright and build a content strategy for your organization"
+      highlighted : false
+
+    - title : "Cybersecurity Strategy"
+      icon : "ti-shield"
+      content : "This is a service mainly dedicated to small business, i can help you come up with a cybersecurity strategy to help you build a good security structure for you, your employees and the company in general"
+      highlighted : true
+
+    - title : "I.T Consultation"
+      icon : "ti-info-alt"
+      content : "With my years of experience as a go to tech guy and support, i can help you identify the needs of your company in the I.T section and how to fufil the need in a cost effective way"
+      highlighted : false
+
+    - title : "General Consultation"
+      icon : "ti-info"
+      content : "With my years of experience in I.T, Content Creation, Web Development, Cybersecurity, Design, Internet, Business, Brands, Agriculture, and more, i may be of assitance by helping you achieve your goal"
+      highlighted : true
+
+# portfolio
+portfolio:
+  enable : true
+  title : "Portfolio"
+  item_show : 5
+  # portfolio item comes from 'data/portfolio.yml' item.
+
+# testimonial
+testimonial:
+  enable : true
+  title : "Testimonials"
+  item:
+    - name : "Jesica Gomez"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      
+    - name : "Shirley Scot"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      
+    - name : "Jessica Julie"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+# client logo slider
+clients_logo_slider:
+  enable : true
+  item:
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "#"
+
+# blog
+blog:
+  enable : false
+  title : "Blogs"
+  # blog post comes from "content/blog" folder
